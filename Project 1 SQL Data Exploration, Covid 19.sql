@@ -88,6 +88,7 @@ Join PortfolioProject..CovidVaccinations vac
 where dea.continent is not null 
 order by 2,3
 
+
 -- Shows Percentage of Population that has recieved at least one Covid Vaccine
 
 Select dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations
